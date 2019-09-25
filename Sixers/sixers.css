@@ -1,0 +1,11 @@
+body {
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: 2500px 1300px
+}
+  h1 {
+    color: white;
+    }
+  
