@@ -1,11 +1,25 @@
 body {
-  background-color: blue;
+  background-image: URL(sixers.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: left;
-  background-size: 2500px 1300px
+  background-position: center;
+  background-size: 2500px 1300px;
+  padding: 30px;
 }
   h1 {
     color: white;
     }
-  
+    p {
+      width: 200px;
+      z-index:10;
+      right: 15,
+  }
+  div {
+      position: relative;
+  }
+  svg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 10;
+  }
