@@ -1,0 +1,48 @@
+body {
+  background-image: URL(knicks.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 2500px 1300px;
+  padding: 30px;
+}
+h3 {
+  color: white;
+  margin-bottom: 2.5rem;
+  margin-top: 3.5rem;
+  margin-left: 15.5rem !important;
+  font-size: 65px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+    p {
+      width: 200px;
+      z-index:10;
+      right: 15,
+  }
+
+  
+th, td{ 
+  color: white;
+  font-size: 25px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+  } 
+  
+  table, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+  }
+  
+  div {
+      position: relative;
+  }
+  svg {
+    position: absolute;
+    left: 450px;
+    top: 120px;
+    z-index: 10;
+}
