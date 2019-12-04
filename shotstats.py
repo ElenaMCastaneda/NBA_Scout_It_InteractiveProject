@@ -47,7 +47,7 @@ with engine.connect() as con:
 con.close()
   
 con = engine.connect()
- con.execute('truncate table shots;')
+con.execute('truncate table shots;')
 con.close()
 
 with engine.connect() as con:
