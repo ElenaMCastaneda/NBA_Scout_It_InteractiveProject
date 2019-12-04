@@ -39,6 +39,11 @@ img{
   border-color: blue;
 } */
 
+pre{
+  color: white;
+  font-size: 0rem;
+}
+
 .landing-footer {
   /* position:  */
   bottom: 0;
