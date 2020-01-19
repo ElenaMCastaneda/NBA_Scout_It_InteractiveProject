@@ -123,7 +123,7 @@
           .attr("transform", "translate(" + margins.left + "," + margins.top + ")")
           .attr("id", "shotchart");
 
-        var courtUrl = src="static/images/nbahalfcourt.png";
+        
         svg.append("svg:defs")
           .append("svg:pattern")
           .attr("id", "bg")
@@ -132,7 +132,7 @@
           .attr("height", max.y)
           .append("svg:image")
           .attr("id", "image-url")
-          .attr("xlink:href", courtUrl)
+          .attr("xlink:href", "static/images/nbahalfcourt.png")
           .attr("width", max.x)
           .attr("height", max.y);
 
