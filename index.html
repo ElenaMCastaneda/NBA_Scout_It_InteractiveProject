@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>NBA Scout It</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="static/css/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>	
+
+
+<body>
+		{% extends "template.html" %}
+		{% block content %}
+		
+	<div class="jumbotron" id='image' style="background-image: url(static/images/basketball.jpg) ;">
+		<h1>NBA SCOUT IT!</h1>
+	</div>
+	
+
+	
+	<div class="content">
+        <div class="col-lg-10">
+            <p>	The sports industry, especially the NBA, has a longer tradition of collecting statistical data. In recent years, new technologies with layered visualization of player shot analysis provides strategical advantages.</p>
+            <br>
+            <p>The <strong>NBA Scout It!</strong> website tracks basketball statistics to helps teams predict player matchups and forecasting how an athlete might perform under specific conditions.</p>
+        </div>			
+	</div>				
+				
+	<div class="container-fluid" >
+        
+		<div class="container">
+				
+			<div class="row">     					
+						
+				<div class="col-lg-12">
+                    <h2>Select Your Opposing Team</h2> 
+                    <br> 				
+				</div> 
+
+				<div class="row"> 						
+					<div class="teams col-md-4">	
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Hawks">
+						<img src="static/images/Atlanta_Hawks.gif">
+						<br>
+						Atlanta Hawks </a>
+					</div>
+						
+					<div class="col-md-4">   			   		 
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Celtics">
+						<img src="static/images/Celtics.png"/>
+						<br>
+						Boston Celtics	</a>
+					</div>
+					<div class="col-md-4">  								
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Nets">
+						<img src="static/images/Brooklyn_Nets.gif">
+						<br>
+						Brooklyn Nets	</a>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-4">								
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Hornets">
+						<img src="static/images/Charlotte_Hornets.gif">
+						<br>
+						Charlotte Hornets					   		 </a>						
+					</div>
+					<div class="col-md-4">				
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Bulls">
+						<img src="static/images/Chicago_Bulls.gif">
+						<br>
+						Chicago Bulls					   		 </a>						
+					</div>
+					<div class="col-md-4"> 			
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Cavaliers">
+						<img src="static/images/Cleveland_Cavaliers.gif">
+						<br>
+						Cleveland Cavaliers					   		 </a>				  
+					</div>
+				</div>
+
+				<br>
+						
+				<div class="row">	
+					<div class="col-md-4">						
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Mavericks">
+						<img src="static/images/Dallas_Mavericks.gif">
+						<br>
+						Dallas Mavericks					   		 </a>										
+					</div>
+					<div class="col-md-4">  									
+							<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Nuggets">
+							<img src="static/images/Denver_Nuggets.gif">
+							<br>
+							Denver Nuggets					   		 </a>										
+					</div>
+					<div class="col-md-4">									
+							<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Pistons">
+							<img src="static/images/Detroit_Pistons.gif">
+							<br>
+							Detroit Pistons					   		 </a>										
+					</div>
+				</div>
+
+				<br>
+								
+				<div class="row">
+					<div class="col-md-4">  
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Warriors">
+						<img src="static/images/Golden_State_Warriors.gif">
+						<br>
+						Golden State Warriors					   		 </a>
+					</div>
+					<div class="col-md-4">							
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Rockets">
+						<img src="static/images/Houston_Rockets.gif">
+						<br>
+						Houston Rockets					   		 </a> 					
+					</div>
+					<div class="col-md-4">
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Pacers">
+						<img src="static/images/Indiana_Pacers.gif">
+						<br>
+						Indiana Pacers					   		 </a>		   						   		 
+					</div>
+				</div>
+
+				<br>
+									
+				<div class="row">
+					<div class="col-md-4">
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Clippers">
+						<img src="static/images/LA_Clippers.gif">
+						<br>
+						Los Angeles Clippers					   		 </a>
+					</div>
+					<div class="col-md-4">							
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Lakers">
+						<img src="static/images/LA_Lakers.gif">
+						<br>
+						Los Angeles Lakers					   		 </a>							
+					</div>
+					<div class="col-md-4">							
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Grizzlies">
+						<img src="static/images/Memphis_Grizzlies.gif">
+						<br>
+						Memphis Grizzlies					   		 </a>						
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-4">						
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Heat">
+						<img src="static/images/Miami_Heat.gif">
+						<br>
+						Miami Heat					   		 </a>							
+					</div>
+					<div class="col-md-4">							
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Bucks">
+						<img src="static/images/Milwaukee_Bucks.gif">
+						<br>
+						Milwaukee Bucks					   		 </a>							
+					</div>
+					<div class="col-md-4">							
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Timberwolves">
+						<img src="static/images/Minnesota_Timberwolves.gif">
+						<br>
+						Minnesota Timberwolves					   		 </a>							
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-4">								
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Pelicans">
+						<img src="static/images/New_Orleans_Pelicans.gif">
+						<br>
+						New Orleans Pelicans					   		 </a>							
+					</div>
+					<div class="col-md-4">						
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Knicks">
+						<img src="static/images/NY_Knicks.gif">
+						<br>
+						New York Knicks					   		 </a>							
+					</div>
+					<div class="col-md-4">						
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Thunder">
+						<img src="static/images/Oklahoma_City_Thunder.gif">
+						<br>
+						Oklahoma City Thunder					   		 </a>						
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-4">							
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Magic">
+						<img src="static/images/Orlando_Magic.gif">
+						<br>
+						Orlando Magic					   		 </a>							
+					</div>
+					<div class="col-md-4">   							
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/sixers.html" title="76ers">
+						<img src="static/images/Philadelphia_76ers.gif">
+						<br>
+						Philadelphia 76ers					   		 </a>						
+					</div>
+					<div class="col-md-4"> 							 
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Suns">
+						<img src="static/images/Phoenix_Suns.gif">
+						<br>
+						Phoenix Suns					   		 </a> 				
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-4">
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Trail Blazers">
+						<img src="static/images/Portland_TrailBlazers.gif">
+						<br>
+						Portland Trail Blazers					   		 </a>							
+					</div>
+					<div class="col-md-4">   						
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Kings">
+						<br> 
+						<img src="static/images/Sacramento_Kings.gif">
+						<br>
+						Sacramento Kings					   		 </a>  							
+					</div>
+					<div class="col-md-4">  						
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Spurs">
+						<img src="static/images/SanAntonio_Spurs.gif">
+						<br>
+						San Antonio Spurs					   		 </a>						
+					</div>
+				</div>
+
+				<br>
+														
+				<div class="row">
+					<div class="col-md-4"> 					
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Raptors">
+						<img src="static/images/Toronto_Raptors.gif">
+						<br>
+						Toronto Raptors					   		 </a>							
+					</div>
+					<div class="col-md-4"> 							
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Jazz">
+						<img src="static/images/Utah_Jazz.gif">
+						<br>
+						Utah Jazz					   		 </a>								
+					</div>
+					<div class="col-md-4"> 								
+						<a href="https://elenamcastaneda.github.io/NBA_Scout_It_InteractiveProject/knicks.html" title="Wizards">
+						<img src="static/images/Washington_Wizards.gif">
+						<br>
+						Washington Wizards					   		 </a>	
+                    </div>	
+                    <br>						  
+				</div>		
+			</div>
+		</div>
+	</div>
+<br>
+<br>
+    
+<div id="footer">
+<div class="content">
+
+<!--Footer-->
+<footer class= "landing-footer">
+    <p>&copy; NBA Scout It!</p>
+</footer> 
+
+{% endblock %}
+</body>
+</html>
